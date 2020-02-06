@@ -40,13 +40,15 @@ You are given an unordered array consisting of consecutive integers  [1, 2, 3, .
 
 For example, given the array arr == [7,1,3,2,4,5,6] we perform the following steps:
 
-i   arr                         swap (indices)
-0   [7, 1, 3, 2, 4, 5, 6]   swap (0,3)
-1   [2, 1, 3, 7, 4, 5, 6]   swap (0,1)
-2   [1, 2, 3, 7, 4, 5, 6]   swap (3,4)
-3   [1, 2, 3, 4, 7, 5, 6]   swap (4,5)
-4   [1, 2, 3, 4, 5, 7, 6]   swap (5,6)
-5   [1, 2, 3, 4, 5, 6, 7]
+```
+    i   arr                         swap (indices)
+    0   [7, 1, 3, 2, 4, 5, 6]   swap (0,3)
+    1   [2, 1, 3, 7, 4, 5, 6]   swap (0,1)
+    2   [1, 2, 3, 7, 4, 5, 6]   swap (3,4)
+    3   [1, 2, 3, 4, 7, 5, 6]   swap (4,5)
+    4   [1, 2, 3, 4, 5, 7, 6]   swap (5,6)
+    5   [1, 2, 3, 4, 5, 6, 7]
+```
 It took 5 swaps to sort the array.
 
 Function Description
@@ -54,4 +56,3 @@ Function Description
 Complete the function minimumSwaps in the editor below. It must return an integer representing the minimum number of 
 swaps to sort the array.
 
-## 5. 
