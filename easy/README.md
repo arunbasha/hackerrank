@@ -6,7 +6,8 @@ integers representing the color of each sock, determine how many pairs of socks 
 For example, there are n = 7 socks with colors ar = [1,2,1,2,1,3,2]. There is one pair of color 1 and one of color 2. 
 There are three odd socks left, one of each color. The number of pairs is 2.
 
-Complete the sockMerchant function in the editor below. It must return an integer representing the number of matching pairs of socks that are available.
+Complete the sockMerchant function in the editor below. It must return an integer representing the number of matching 
+pairs of socks that are available.
 
 ## 2. Valley Counting
 
@@ -26,7 +27,8 @@ Given Gary's sequence of up and down steps during his last hike, find and print 
 For example, if Gary's path is s = [DDUUUUDD], he first enters a valley 2 units deep. Then he climbs out an up onto a 
 mountain 2 units high. Finally, he returns to sea level and ends his hike.
 
-Complete the countingValleys function in the editor below. It must return an integer that denotes the number of valleys Gary traversed.
+Complete the countingValleys function in the editor below. It must return an integer that denotes the number of valleys 
+Gary traversed.
 
 ## 3. Jumping On Clouds
 Emma is playing a new mobile game that starts with consecutively numbered clouds. Some of the clouds are thunderheads 
@@ -47,7 +49,7 @@ Lilah has a string, s, of lowercase English letters that she repeated infinitely
 
 Given an integer, n, find and print the number of letter a's in the first  letters of Lilah's infinite string.
 
-For example, if the string s='abcac' and n = 10, the substring we consider is abcacabcac, the first 10 characters of her
+For example, if the string s='abcac' and n = 10, the substring we consider is 'abcacabcac', the first 10 characters of her
 infinite string. There are 4 occurrences of a in the substring.
 
 Complete the repeatedString function in the editor below. It should return an integer representing the number of 
@@ -64,7 +66,8 @@ Given a 6x6 2D Array, arr:
     0 0 0 0 0 0
     0 0 0 0 0 0
 ```
-We define an hourglass in A to be a subset of values with indices falling in this pattern in arr's graphical representation:
+We define an hourglass in A to be a subset of values with indices falling in this pattern in arr's graphical 
+representation:
 ```
     a b c
       d

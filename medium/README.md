@@ -36,7 +36,9 @@ Fascinated by this chaotic queue, you decide you must know the minimum number of
 into its current state!
 
 ## 4. Minimum Swaps
-You are given an unordered array consisting of consecutive integers  [1, 2, 3, ..., n] without any duplicates. You are allowed to swap any two elements. You need to find the minimum number of swaps required to sort the array in ascending order.
+You are given an unordered array consisting of consecutive integers  [1, 2, 3, ..., n] without any duplicates. You are 
+allowed to swap any two elements. You need to find the minimum number of swaps required to sort the array in ascending 
+order.
 
 For example, given the array arr == [7,1,3,2,4,5,6] we perform the following steps:
 
@@ -56,3 +58,35 @@ Function Description
 Complete the function minimumSwaps in the editor below. It must return an integer representing the minimum number of 
 swaps to sort the array.
 
+## 5. Max Array Sum
+Given an array of integers, find the subset of non-adjacent elements with the maximum sum. Calculate the sum of that 
+subset.
+
+For example, given an array arr = [-2,1,3,-4,5] we have the following possible subsets:
+```
+    Subset      Sum
+    [-2, 3, 5]   6
+    [-2, 3]      1
+    [-2, -4]    -6
+    [-2, 5]      3
+    [1, -4]     -3
+    [1, 5]       6
+    [3, 5]       8
+```
+Our maximum subset sum is 8.
+
+Complete the function in the editor below. It should return an integer representing the maximum subset sum for the given
+array.
+
+## 6. Abbreviation
+You can perform the following operations on the string, a:
+
+Capitalize zero or more of a's lowercase letters.
+Delete all of the remaining lowercase letters in a.
+Given two strings, a and b, determine if it's possible to make a equal to b as described. If so, print YES on a new 
+line. Otherwise, print NO.
+
+For example, given a = AbcDE and b = ABDE, in a we can convert b and delete c to match b. If a = AbcDE and b = AFDE, 
+matching is not possible because letters may only be capitalized or discarded, not changed.
+
+Complete the function abbreviation in the editor below. It must return either YES or NO.
